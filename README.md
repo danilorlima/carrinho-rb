@@ -26,8 +26,7 @@
         Url: http://automationpractice.com/
             `Url que será utilizada para executar os teste(s) no ambiente de desenvolvimento`
 
-  -Exemplo
-        Comando terminal: Na pasta raiz do projeto, executar o comando: `cucumber` ou `cucumber -t <tag>` --> `Isso fará com que os testes sejam executados`
+  -Exemplo: Na pasta raiz do projeto, executar o comando --> `cucumber` ou `cucumber -t <tag>` --> `Isso fará com que os testes sejam executados`
 
 **Projeto**
   - carrinho.feature
