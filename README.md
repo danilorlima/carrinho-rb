@@ -5,11 +5,11 @@
 - Automação E-commerce do site www.automationpractice.com utilizando Ruby, Capybara e Cucumber.
 
 **Configuração de ambiente**
-  - Instalar o Ruby 2.5.1, link: https://rubyinstaller.org/downloads/ ;
+  - Instalar o Ruby 2.5.1, link: https://rubyinstaller.org/downloads/
   - Instalar a gem bundler, comando: `gem install bundler`
   - Para instalar a gems utilizadas no projeto que estão descritas no arquivo "Gemfile.rb", comando: `bundle install`
-  - Fazer o download do webdriver Chrome compatível com a versão do browser, link https://chromedriver.chromium.org/downloads ;
-  - Setar o webdriver como variável de ambiente do seu sistema operacional.
+  - Fazer o download do webdriver Chrome compatível com a versão do browser, link https://chromedriver.chromium.org/downloads
+  - Setar o webdriver como variável de ambiente do seu sistema operacional
 
 **Executar o projeto**
   - Arquivo cucumber.yml
@@ -25,6 +25,9 @@
   - Arquivo dev_toolbox.yml
         Url: http://automationpractice.com/
             `Url que será utilizada para executar os teste(s) no ambiente de desenvolvimento`
+
+  -Exemplo
+        Comando terminal: Na pasta raiz do projeto, executar o comando: `cucumber` ou `cucumber -t <tag>` --> `Isso fará com que os testes sejam executados`
 
 **Projeto**
   - carrinho.feature
